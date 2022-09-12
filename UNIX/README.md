@@ -1,6 +1,6 @@
 # UNIX
 
-## install
+## install [install.sh](install.sh)
 
 ```bash
 bash install.sh
