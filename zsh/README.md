@@ -1,6 +1,6 @@
 # zsh
 
-## install [install.sh](install.sh)
+## [install.sh](install.sh)
 
 ```bash
 bash install.sh

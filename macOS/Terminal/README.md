@@ -2,4 +2,4 @@
 
 ## configure
 
-Import [ayu Dark DS.terminal](ayu Dark DS.terminal)
+Import [ayuDarkDS.terminal](ayuDarkDS.terminal)
