@@ -6,4 +6,4 @@ SetApp
 
 ## configure
 
-Import [iStat Menus Settings.ismp](iStat Menus Settings.ismp)
+Import [iStatMenusSettings.ismp](iStatMenusSettings.ismp)
