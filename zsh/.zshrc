@@ -11,7 +11,7 @@ alias history="history 1"
 bindkey -e
 bindkey '^R' history-incremental-search-backward
  
-export PATH=$PATH:/opt/homebrew/bin/
+export PATH=$PATH:/opt/homebrew/bin/:/opt/homebrew/opt/gnu-tar/libexec/gnubin
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="apple"
@@ -20,6 +20,7 @@ HYPHEN_INSENSITIVE="true"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_AUTO_TITLE="true"
  
 plugins=(
   git
@@ -39,7 +40,7 @@ plugins=(
   docker 
   command-not-found
   brew
-  bgnotify
+  #bgnotify
   aws
   autopep8
   ansible

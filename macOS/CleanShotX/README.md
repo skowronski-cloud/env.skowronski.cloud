@@ -19,9 +19,10 @@ after capture:
   show quick capture overlay: screenshot, recording
   copy file to clipboard: screenshot, recording
   save: screenshot, recording
-  upload: NONE
-  pin to the screen: screenshot
-  open video editor: NONE
+  upload: --
+  open annotate tool: --
+  pin to the screen: --
+  open video editor: --
 ```
 
 wallpaper:
