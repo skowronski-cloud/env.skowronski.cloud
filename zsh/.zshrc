@@ -40,13 +40,13 @@ plugins=(
   docker 
   command-not-found
   brew
-  #bgnotify
+  bgnotify
   aws
   autopep8
   ansible
   z 
   zsh-autosuggestions 
-  zsh-syntax-highlighting
+  # zsh-syntax-highlighting # handled below
   kubectl
 )
  
@@ -60,5 +60,8 @@ fi
 
 alias clock='tty-clock -sc -f "%a, %d %b %Y %T %z"'
 alias http='python3 -m http.server 8000'
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(pyenv init -)"
 
 source ~/.zshrc_local

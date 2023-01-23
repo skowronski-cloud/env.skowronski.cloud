@@ -9,9 +9,27 @@ SetApp
 general:
 ```
 + Launch Bartender at login
++ Use Bartender Bar to show hidden items + Only on screen with Notch
 ```
 
-### menu bar layout
+### menu bar layout - narrow screen
+#### shown
+- Lungo
+- iStat Menus / CPU
+- iStat Menus / MEM
+- iStat Menus / SENSORS
+- iStat Menus / BATTERY
+- Audio (system)
+#### hidden
+- **everything else**
+#### always hidden
+- Scrip tMenu (system)
+- Battery (system)
+- DYMO
+- Bitwarden
+- Keybase
+
+### menu bar layout - wide screen
 #### shown
 - **spacer**
 - iStat Menus / CPU
